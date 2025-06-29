@@ -13,7 +13,9 @@ body{
     margin-right: auto;
 }
 .homepage{
-    background-color: rgb(238, 237, 157);
+    background-color: #fdf6e3;
+    font-family: 'Verdana', sans-serif;
+    color: #333
 }
 head{
     background-image: url(bee-hive-wallpaper-2x.jpg);
