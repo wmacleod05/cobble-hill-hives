@@ -91,7 +91,7 @@ p {
     width: 50%;
 }
 
-/* Hero Banner */
+/* Hero Banner (for large image sections like header images) */
 .hero img {
     width: 100%;
     height: auto;
@@ -99,7 +99,7 @@ p {
     border-bottom: 5px solid #e5c07b;
 }
 
-/* Section Layout (old layout still here if reused) */
+/* Section Layout (legacy layout – still usable) */
 aside {
     width: 20%;
     float: left;
@@ -118,7 +118,7 @@ article {
     padding: 10px;
 }
 
-/* Card Style for homepage */
+/* Card Style for homepage content */
 .card {
     background-color: #fff8dc;
     padding: 20px;
@@ -127,6 +127,8 @@ article {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     max-width: 700px;
 }
+
+/* Title Banner with Bees Image */
 .title-banner {
     background-image: url("bees-title.jpg"); /* replace with your actual image filename */
     background-size: cover;
@@ -143,7 +145,7 @@ article {
     margin: 0;
 }
 
-/* Call to Action Button */
+/* Buy Now Button */
 .buy-button {
     display: inline-block;
     background-color: #e5c07b;
@@ -162,6 +164,8 @@ article {
     background-color: #ffcc00;
     color: #000;
 }
+
+/* Product Grid (Products page) */
 .product-grid {
     display: flex;
     flex-wrap: wrap;
