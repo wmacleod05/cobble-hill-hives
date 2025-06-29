@@ -1,0 +1,91 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0px;
+}
+.momoframe{
+    height: 50%;
+    width: 50%;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homepage{
+    background-color: rgb(238, 237, 157);
+}
+head{
+    background-image: url(bee-hive-wallpaper-2x.jpg);
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align:center;
+}
+p{
+    
+}
+.navbar ul{
+    list-style-type: none;
+    background-color:rgb(70, 70, 64);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+} 
+.navbar a:hover{
+    background-color:rgb(10, 10, 10)
+}
+.navbar li{
+    float:left
+}
+.porchhoneyjar{
+    height:50%;
+    text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear:both;
+    text-align: center;
+    background-color: rgb(168, 161, 161);
+    padding: 1px;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
