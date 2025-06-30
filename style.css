@@ -12,18 +12,6 @@ body.homepage {
     font-family: 'Verdana', sans-serif;
     color: #333;
 }
-/* ProductPage specific style */
-body.productpage{
-    background-color: #fdf6e3;
-    font-family: 'Verdana', sans-serif;
-    color: #333;
-}
-/* AboutPage specific style */
-body.aboutpage{
-    background-color: #fdf6e3;
-    font-family: 'Verdana', sans-serif;
-    color: #333;
-}
 
 /* Head image background – not visible on the site, but preserved */
 head {
@@ -210,7 +198,15 @@ article {
     font-size: 0.95em;
     margin-bottom: 15px;
 }
-
+.contact-card {
+    background-color: #fff8dc;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
 /* Footer */
 footer {
     display: block;
