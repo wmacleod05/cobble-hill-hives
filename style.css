@@ -198,6 +198,15 @@ article {
     font-size: 0.95em;
     margin-bottom: 15px;
 }
+
+/* Footer */
+footer {
+    display: block;
+    clear: both;
+    text-align: center;
+    background-color: rgb(168, 161, 161);
+    padding: 1px;
+}
 .contact-card {
     background-color: #fff8dc;
     border-radius: 15px;
@@ -206,14 +215,18 @@ article {
     max-width: 500px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
+    font-family: 'Verdana', sans-serif;
 }
-/* Footer */
-footer {
-    display: block;
-    clear: both;
-    text-align: center;
-    background-color: rgb(168, 161, 161);
-    padding: 1px;
+
+.contact-card h2 {
+    font-size: 1.8em;
+    color: #4A3F35;
+    margin-bottom: 15px;
+}
+
+.contact-card p {
+    font-size: 1.1em;
+    margin: 8px 0;
 }
 
 /* Mobile-friendly layout */
