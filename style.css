@@ -12,6 +12,18 @@ body.homepage {
     font-family: 'Verdana', sans-serif;
     color: #333;
 }
+/* ProductPage specific style */
+body.productpage{
+    background-color: #fdf6e3;
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+}
+/* AboutPage specific style */
+body.aboutpage{
+    background-color: #fdf6e3;
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+}
 
 /* Head image background – not visible on the site, but preserved */
 head {
