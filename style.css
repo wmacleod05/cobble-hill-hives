@@ -208,15 +208,21 @@ footer {
     padding: 1px;
 }
 .contact-card {
-    background-color: #fff8dc;
+    background-image: url("IMG_BKLandscape.jpg"); 
+    background-size: cover;
+    background-position: center;
+    color: white; /* So the text stands out */
     border-radius: 15px;
-    padding: 20px;
+    padding: 40px 20px;
     margin: 40px auto;
     max-width: 500px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     text-align: center;
     font-family: 'Verdana', sans-serif;
+    position: relative;
+    z-index: 1;
 }
+
 
 .contact-card h2 {
     font-size: 1.8em;
