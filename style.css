@@ -201,14 +201,15 @@ article {
 
 /* Footer */
 footer {
+    background-image: url("IMG_BKLandscape.jpg"); 
+    background-size: cover;
+    background-position: center;
     display: block;
     clear: both;
     text-align: center;
-    background-color: rgb(168, 161, 161);
     padding: 1px;
 }
 .contact-card {
-    background-image: url("IMG_BKLandscape.jpg"); 
     background-size: cover;
     background-position: center;
     color: white; /* So the text stands out */
@@ -218,6 +219,7 @@ footer {
     max-width: 500px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     text-align: center;
+    background-color: rgb(168, 161, 161);
     font-family: 'Verdana', sans-serif;
     position: relative;
     z-index: 1;
